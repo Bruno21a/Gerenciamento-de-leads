@@ -1,14 +1,15 @@
 # Gerenciamento de Leads
 
-Este projeto é uma aplicação de gerenciamento de leads, com back-end em .NET e front-end em React.
-
 ## Como Rodar o Projeto
 
-Siga os passos abaixo para iniciar a aplicação.
+Clone o repositório através do Git Bash com o comando:
+ ```bash
+   git clone --branch master https://github.com/Bruno21a/Gerenciamento-de-leads.git
 
+  ```
 ### Back-end
 
-Abra a pasta `backend` no **Visual Studio 2022** (ou na sua IDE de preferência) e pressione F5 para rodar o projeto. A API será iniciada automaticamente.
+Abra a pasta `backend`, dentro da pasta clique no arquivo .sln para iniciar o projeto no **Visual Studio 2022** (ou na sua IDE de preferência) e pressione F5 para rodar o projeto. A API será iniciada automaticamente.
 
 ### Front-end
 
