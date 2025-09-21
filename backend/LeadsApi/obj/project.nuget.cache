@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "W3g69SN31Bc=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Waz\\source\\repos\\Leads\\LeadsAPI\\LeadsApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Waz\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "C:\\Users\\Waz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Waz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Waz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Waz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.OpenApi 9.0.9 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.AspNetCore.OpenApi 9.0.9 supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\Waz\\source\\repos\\Leads\\LeadsAPI\\LeadsApi.csproj",
+      "filePath": "C:\\Users\\Waz\\source\\repos\\Leads\\LeadsAPI\\LeadsApi.csproj",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

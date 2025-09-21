@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Waz\\OneDrive\\Desktop\\Gerenciamento de leads\\Leads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Controllers\\LeadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Context\\LeadsDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadHanlder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\LeadsDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\20250919215620_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptdLeadsQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptedLeadsHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\AcceptedLeadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadListDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Mappings\\MappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\Lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\LeadStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\FileEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\emails.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\LeadsAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeadsController.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Controllers\\LeadsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Controllers\\LeadsController.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Controllers\\LeadsController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Controllers\\LeadsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:16:06.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetLeadByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:20:16.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeadsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Context\\LeadsDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Context\\LeadsDbContext.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Context\\LeadsDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Context\\LeadsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:51:56.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T13:47:22.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Program.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:51:23.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateLeadHanlder.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadHanlder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadHanlder.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadHanlder.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadHanlder.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:22:16.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeclineLeadCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadCommand.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:27:51.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeadsDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\LeadsDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Migrations\\LeadsDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\LeadsDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Migrations\\LeadsDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:38:24.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250919215620_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\20250919215620_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Migrations\\20250919215620_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Migrations\\20250919215620_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Migrations\\20250919215620_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:56:20.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AcceptLeadCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadCommand.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:27:04.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AcceptLeadHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\AcceptLeadHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:27:32.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateLeadCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadCommand.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\CreateLeadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:21:53.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeclineLeadHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeclineLeadHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:28:11.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteLeadCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadCommand.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:26:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteLeadHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\DeleteLeadHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:26:28.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateLeadCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadCommand.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:22:45.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateLeadHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Commands\\UpdateLeadHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:23:07.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAcceptdLeadsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptdLeadsQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptdLeadsQuery.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptdLeadsQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptdLeadsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:19:14.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAcceptedLeadsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptedLeadsHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptedLeadsHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptedLeadsHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetAcceptedLeadsHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:19:39.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetInvitedLeadsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:17:58.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetInvitedLeadsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsQuery.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsQuery.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetInvitedLeadsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:15:53.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetLeadByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdHandler.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\CQRS\\Queries\\GetLeadByIdHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:20:41.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AcceptedLeadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\AcceptedLeadDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\AcceptedLeadDto.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\AcceptedLeadDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\AcceptedLeadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:13:55.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LeadCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\LeadCreateDto.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadCreateDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\LeadCreateDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:11:36.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LeadListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadListDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\LeadListDto.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Dtos\\LeadListDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Dtos\\LeadListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:13:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:29:44.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lead.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\Lead.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Models\\Lead.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\Lead.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Models\\Lead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:22:32.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LeadStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\LeadStatus.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Models\\LeadStatus.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Models\\LeadStatus.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Models\\LeadStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:21:18.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FileEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\FileEmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Services\\FileEmailService.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\FileEmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Services\\FileEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:15:03.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "emails.txt",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\emails.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\emails.txt",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\emails.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\emails.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-21T14:16:41.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\Services\\IEmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:14:28.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\appsettings.json",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T21:44:18.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LeadsAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\LeadsAPI.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\LeadsAPI.csproj",
+              "ToolTip": "C:\\Users\\Waz\\source\\repos\\Leads\\Leads\\LeadsAPI.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Leads\\Leads\\LeadsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-20T18:19:53.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "Create",
+    "RelativePath": "api/Leads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LeadsAPI.Dtos.LeadCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "GetById",
+    "RelativePath": "api/Leads/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "Update",
+    "RelativePath": "api/Leads/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LeadsAPI.Dtos.LeadCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "Delete",
+    "RelativePath": "api/Leads/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "Accept",
+    "RelativePath": "api/Leads/{id}/accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "Decline",
+    "RelativePath": "api/Leads/{id}/decline",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "GetAccepted",
+    "RelativePath": "api/Leads/accepted",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LeadsAPI.Controllers.LeadsController",
+    "Method": "GetInvited",
+    "RelativePath": "api/Leads/invited",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
