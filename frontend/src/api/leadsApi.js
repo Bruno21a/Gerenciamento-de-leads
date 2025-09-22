@@ -11,7 +11,7 @@ const client = axios.create({
 export async function getInvitedLeads() {
   const res = await fetch("https://localhost:7167/api/Leads/invited");
   if (!res.ok) throw new Error("Erro ao buscar leads convidados");
-  return await res.json(); // já vem como array []
+  return await res.json(); 
 }
 
 export async function getAcceptedLeads() {
