@@ -6,7 +6,7 @@ const client = axios.create({
   headers: { "Content-Type": "application/json" },
 });
 
-// src/api/leadsApi.js
+
 
 export async function getInvitedLeads() {
   const res = await fetch("https://localhost:7167/api/Leads/invited");
@@ -17,7 +17,7 @@ export async function getInvitedLeads() {
 export async function getAcceptedLeads() {
   const res = await fetch("https://localhost:7167/api/Leads/accepted");
   if (!res.ok) throw new Error("Erro ao buscar leads aceitos");
-  return await res.json(); // já vem como array []
+  return await res.json();
 }
 
 export async function acceptLead(id) {
